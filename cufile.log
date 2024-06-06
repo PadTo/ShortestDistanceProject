@@ -1,0 +1,10 @@
+ 04-06-2024 12:00:56:251 [pid=6524 tid=6524] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 04-06-2024 12:00:56:251 [pid=6524 tid=6524] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 04-06-2024 12:00:56:252 [pid=6524 tid=6524] WARN   0:168 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 04-06-2024 12:00:56:252 [pid=6524 tid=6524] NOTICE  cufio-drv:720 running in compatible mode
+ 04-06-2024 12:00:56:253 [pid=6524 tid=6524] ERROR  cufio-plat:98 cannot open path /sys/bus/pci/devices/0000:01:00.0/resource No such file or directory
+ 04-06-2024 12:00:56:253 [pid=6524 tid=6524] WARN   cufio-plat:427 GPU index 0 NVIDIA GeForce GTX 1650: Model Not Supported
+ 04-06-2024 12:00:56:253 [pid=6524 tid=6524] WARN   cufio-udev:168 failed in udev device create: /sys/bus/pci/devices/0000:01:00.0
+ 04-06-2024 12:00:56:374 [pid=6524 tid=6524] ERROR  cufio-topo-udev:431 no device entries present in platform topology
